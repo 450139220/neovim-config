@@ -16,3 +16,6 @@ require('plugins.kanagawa')
 require('plugins.github')
 
 require('plugins.comment')
+
+-- css colorizer
+require('plugins.colorizer')

@@ -2,7 +2,7 @@ local opt = vim.opt
 
 -- font
 -- opt.guifont = 'JetBrainsMono Nerd Font:h12'
-opt.guifont = 'UbuntuMono Nerd Font:h14'
+opt.guifont = 'UbuntuMono Nerd Font:h13'
 opt.termguicolors = true
 
 -- lines number

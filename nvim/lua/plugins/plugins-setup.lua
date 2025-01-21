@@ -89,6 +89,9 @@ return require('packer').startup(function(use)
   use 'rust-lang/rust.vim'
   use 'simrat39/rust-tools.nvim'
 
+  -- css color
+  use 'norcalli/nvim-colorizer.lua'
+
   if packer_bootstrap then
     require('packer').sync()
   end
