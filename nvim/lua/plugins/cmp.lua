@@ -65,8 +65,15 @@ cmp.setup({
     { name = 'nvim_lsp' },
     { name = 'luasnip' },
     { name = 'path' },
-    -- { name = 'css-variables' },
+    { name = 'css-variables' },
   }, {
     { name = 'buffer' },
+  })
+})
+
+cmp.setup.filetype('css', {
+  sources = cmp.config.sources({
+    { name = 'css-variables', },
+    { name = 'nvim_lsp' },
   })
 })

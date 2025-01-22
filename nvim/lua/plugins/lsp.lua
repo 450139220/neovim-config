@@ -49,7 +49,17 @@ require('lspconfig').rust_analyzer.setup {
 }
 
 require('lspconfig').cssls.setup {
-  capabilities = require('cmp_nvim_lsp').default_capabilities()
+  capabilities = capabilities,
+  settings = {
+    css = {
+      validate = true,
+      lint = {
+        unknownAtRules = 'ignore',
+      },
+    },
+    less = { validate = true },
+    scss = { validate = true },
+  }
 }
 
 require('lspconfig').clangd.setup {

@@ -42,6 +42,5 @@ opt.wrap = true
 opt.linebreak = true
 
 -- css-variables
-vim.g.css_variables_files = {
-  'style.css'
-}
+-- # CHANGE THIS TO REAL PATH
+vim.g.css_variables_files = { '/src/assets/styles/global.css' }
