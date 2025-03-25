@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- font
--- opt.guifont = 'JetBrainsMono Nerd Font:h12'
+-- opt.guifont = 'JetBrainsMono Nerd Font:h11'
 opt.guifont = 'UbuntuMono Nerd Font:h13'
 opt.termguicolors = true
 
@@ -43,4 +43,4 @@ opt.linebreak = true
 
 -- css-variables
 -- # CHANGE THIS TO REAL PATH
-vim.g.css_variables_files = { '/src/assets/styles/global.css' }
+-- vim.g.css_variables_files = { '/src/assets/styles/global.css' }

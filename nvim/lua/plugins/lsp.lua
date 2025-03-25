@@ -35,6 +35,8 @@ require('lspconfig').ts_ls.setup {
       preferences = {
         lib = {"dom"}
       }
+    },
+    typescript = {
     }
   }
 }
